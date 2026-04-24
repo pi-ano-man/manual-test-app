@@ -1,5 +1,5 @@
 {
-  "name": "@pi-ano-man/manual-test",
+  "name": "@pi-ano-man/manual-test-app",
   "version": "1.0.0",
   "description": "Interactive manual test runner for projects with human-in-the-loop tests",
   "bin": {
