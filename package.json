@@ -19,7 +19,7 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
-    "prepublishOnly": "pnpm build"
+    "prepublishOnly": "tsup"
   },
   "devDependencies": {
     "@types/node": "^25.6.0",
