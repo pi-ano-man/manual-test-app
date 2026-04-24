@@ -1,0 +1,29 @@
+{
+  "name": "@pi-ano-man/manual-test",
+  "version": "1.0.0",
+  "description": "Interactive manual test runner for projects with human-in-the-loop tests",
+  "bin": {
+    "manual-test": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/types.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "pnpm build"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}
